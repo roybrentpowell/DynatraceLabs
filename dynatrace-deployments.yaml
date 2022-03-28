@@ -94,4 +94,4 @@ spec:
           # line below:
           # value: env
         ports:
-        - containerPort: 80
+        - containerPort: 8080
