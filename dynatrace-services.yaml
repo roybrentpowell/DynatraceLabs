@@ -46,7 +46,7 @@ spec:
   # type: LoadBalancer
   ports:
   - port: 80
-    nodeport: 30080
+    nodePort: 30080
   selector:
     app: guestbook
     tier: frontend
