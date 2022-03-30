@@ -1,17 +1,17 @@
 apiVersion: v1
 data:
   apiToken: ZHQwYzAxLlBDRDNFSUE3RDI0TElZUkkyTzVSUTdXNy5aRFo3SUdZVU5RVExHVkxRSVZXTzRMRTJBM0dBN0dCWlJESlJGVURNVUxFSkpXR1FOTVkzV0E3R1VYSVFOWENE
-  
+  dataIngestToken: ZHQwYzAxLlNPTVRGS0lYUFBWQUhCMkwzWTJNNFQ0Ty5BWU1RN1BNUFlBWkZUU1VHVzNSNVJXNDVKTEFTVEhIUDVQTElPR05CS0JCNTRDNDI3VkZXR0NQVU5TQ0s2WlFD
 kind: Secret
 metadata:
-  name: secondtimesacharm
+  name: kubemonitor
   namespace: dynatrace
 type: Opaque
 ---
 apiVersion: dynatrace.com/v1beta1
 kind: DynaKube
 metadata:
-  name: secondtimesacharm
+  name: kubemonitor
   namespace: dynatrace
   annotations:
     alpha.operator.dynatrace.com/feature-automatic-kubernetes-api-monitoring: "true"
